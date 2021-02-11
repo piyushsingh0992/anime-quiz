@@ -1,25 +1,26 @@
 .landingPage {
-  height: 100vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2vw 0vw 2vw;
 }
 
 .landingPage > h1 {
   font-size: 3.5vw;
-  margin: 8vw 0vw 8vw;
+  margin-bottom: 2vw;
 }
 
 .choose_one {
   display: grid;
   grid-template-columns: 35vw 35vw;
-  grid-template-rows: 16vw 16vw;
-  grid-gap: 3vw;
+  grid-template-rows: 15.5vw 15.5vw;
+  grid-gap: 2vw;
 }
 
 .anime_button {
-  height: 16vw;
+  height: 15.5vw;
   width: 35vw;
   position: relative;
   cursor: pointer;
@@ -33,7 +34,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 16vw;
+  height: 15.5vw;
   object-fit: contain;
 }
 
