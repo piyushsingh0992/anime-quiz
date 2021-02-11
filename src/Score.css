@@ -1,0 +1,56 @@
+.score {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score > div {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.score h1 {
+  font-size: 5vw;
+  padding-bottom: 4vw;
+}
+
+.score_myButton {
+  background: linear-gradient(to bottom, #f7ff00 5%, #a9b825 100%);
+  background-color: #f7ff00;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 2.2vw;
+  padding: 1vw 3vw;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #566629;
+  font-weight: bold;
+}
+.score_myButton:hover {
+  background: linear-gradient(to bottom, #a9b825 5%, #f7ff00 100%);
+  background-color: #a9b825;
+  transform: scale(1.1);
+}
+.score_myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .score > h1 {
+    font-size: 8vw;
+    padding-bottom: 5vw;
+  }
+
+  .score_myButton {
+    color: black;
+    font-family: Arial;
+    font-size: 3.3vw;
+    padding: 2vw 4vw;
+  }
+}

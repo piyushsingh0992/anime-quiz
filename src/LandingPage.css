@@ -1,0 +1,79 @@
+.landingPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingPage > h1 {
+  font-size: 3.5vw;
+  margin: 8vw 0vw 8vw;
+}
+
+.choose_one {
+  display: grid;
+  grid-template-columns: 35vw 35vw;
+  grid-template-rows: 16vw 16vw;
+  grid-gap: 3vw;
+}
+
+.anime_button {
+  height: 16vw;
+  width: 35vw;
+  position: relative;
+  cursor: pointer;
+}
+
+.anime_button:hover {
+  transform: scale(1.1);
+}
+
+.anime_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16vw;
+  object-fit: contain;
+}
+
+.anime_name {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime_name > p {
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+  .landingPage > h1 {
+    font-size: 5vw;
+  }
+
+  .choose_one {
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 20vw 20vw;
+    grid-gap: 3vw;
+  }
+
+  .anime_button {
+    height: 20vw;
+    width: 40vw;
+  }
+
+  .anime_img {
+    height: 20vw;
+  }
+
+  .anime_name > p {
+    font-size: 4vw;
+  }
+}

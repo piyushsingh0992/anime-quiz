@@ -1,0 +1,15 @@
+@font-face {
+  src: url(fonts/Gotham_Medium.otf);
+  font-family: spotify;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: spotify;
+}
